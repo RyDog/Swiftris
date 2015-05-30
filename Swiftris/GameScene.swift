@@ -8,6 +8,17 @@
 
 import SpriteKit
 
+// #1
+    let TickLengthLevelOne = NSTimeInterval(600)
+
+class GameScene: SKScene {
+    
+// #2
+    var tick:(() -> ())?
+    var tickLengthMillis = TickLengthLevelOne
+    var lastTick:NSDate?
+
+
 class GameScene: SKScene {
     required init(coder aDecoder: NSCoder) {
         
