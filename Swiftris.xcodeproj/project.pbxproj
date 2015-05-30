@@ -28,6 +28,15 @@
 		7910CBFC1B1487E400A65173 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7910CBF61B1487E400A65173 /* whitebg@2x.png */; };
 		7910CBFE1B14A4C900A65173 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910CBFD1B14A4C900A65173 /* Array2D.swift */; };
 		79A0ED501B19ABA30026CD57 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED4F1B19ABA30026CD57 /* Block.swift */; };
+		79A0ED521B19B3AB0026CD57 /* Shape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED511B19B3AB0026CD57 /* Shape.swift */; };
+		79A0ED541B19B7870026CD57 /* SquareShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED531B19B7870026CD57 /* SquareShape.swift */; };
+		79A0ED561B19B81F0026CD57 /* TShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED551B19B81F0026CD57 /* TShape.swift */; };
+		79A0ED581B19B8AC0026CD57 /* LineShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED571B19B8AC0026CD57 /* LineShape.swift */; };
+		79A0ED5A1B19B8F40026CD57 /* LShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED591B19B8F40026CD57 /* LShape.swift */; };
+		79A0ED5C1B19B92F0026CD57 /* JShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED5B1B19B92F0026CD57 /* JShape.swift */; };
+		79A0ED5E1B19B95B0026CD57 /* SShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED5D1B19B95B0026CD57 /* SShape.swift */; };
+		79A0ED601B19B97C0026CD57 /* ZShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED5F1B19B97C0026CD57 /* ZShape.swift */; };
+		79A0ED621B19BD660026CD57 /* Swiftris.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED611B19BD660026CD57 /* Swiftris.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +75,15 @@
 		7910CBF61B1487E400A65173 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		7910CBFD1B14A4C900A65173 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
 		79A0ED4F1B19ABA30026CD57 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Block.swift; path = ../Block.swift; sourceTree = "<group>"; };
+		79A0ED511B19B3AB0026CD57 /* Shape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Shape.swift; path = ../Shape.swift; sourceTree = "<group>"; };
+		79A0ED531B19B7870026CD57 /* SquareShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SquareShape.swift; path = ../SquareShape.swift; sourceTree = "<group>"; };
+		79A0ED551B19B81F0026CD57 /* TShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TShape.swift; sourceTree = "<group>"; };
+		79A0ED571B19B8AC0026CD57 /* LineShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LineShape.swift; sourceTree = "<group>"; };
+		79A0ED591B19B8F40026CD57 /* LShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LShape.swift; sourceTree = "<group>"; };
+		79A0ED5B1B19B92F0026CD57 /* JShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JShape.swift; sourceTree = "<group>"; };
+		79A0ED5D1B19B95B0026CD57 /* SShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SShape.swift; sourceTree = "<group>"; };
+		79A0ED5F1B19B97C0026CD57 /* ZShape.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZShape.swift; sourceTree = "<group>"; };
+		79A0ED611B19BD660026CD57 /* Swiftris.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Swiftris.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +135,16 @@
 				7910CBE41B14879F00A65173 /* Sounds */,
 				7910CBBE1B14834F00A65173 /* Supporting Files */,
 				7910CBFD1B14A4C900A65173 /* Array2D.swift */,
+				79A0ED4F1B19ABA30026CD57 /* Block.swift */,
+				79A0ED511B19B3AB0026CD57 /* Shape.swift */,
+				79A0ED531B19B7870026CD57 /* SquareShape.swift */,
+				79A0ED551B19B81F0026CD57 /* TShape.swift */,
+				79A0ED571B19B8AC0026CD57 /* LineShape.swift */,
+				79A0ED591B19B8F40026CD57 /* LShape.swift */,
+				79A0ED5B1B19B92F0026CD57 /* JShape.swift */,
+				79A0ED5D1B19B95B0026CD57 /* SShape.swift */,
+				79A0ED611B19BD660026CD57 /* Swiftris.swift */,
+				79A0ED5F1B19B97C0026CD57 /* ZShape.swift */,
 			);
 			path = Swiftris;
 			sourceTree = "<group>";
@@ -124,7 +152,6 @@
 		7910CBBE1B14834F00A65173 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				79A0ED4F1B19ABA30026CD57 /* Block.swift */,
 				7910CBF11B1487E400A65173 /* background.png */,
 				7910CBF21B1487E400A65173 /* background@2x.png */,
 				7910CBF31B1487E400A65173 /* gameboard.png */,
@@ -277,10 +304,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A0ED5A1B19B8F40026CD57 /* LShape.swift in Sources */,
+				79A0ED541B19B7870026CD57 /* SquareShape.swift in Sources */,
 				7910CBC51B14834F00A65173 /* GameScene.swift in Sources */,
+				79A0ED5C1B19B92F0026CD57 /* JShape.swift in Sources */,
+				79A0ED621B19BD660026CD57 /* Swiftris.swift in Sources */,
+				79A0ED521B19B3AB0026CD57 /* Shape.swift in Sources */,
 				7910CBFE1B14A4C900A65173 /* Array2D.swift in Sources */,
+				79A0ED581B19B8AC0026CD57 /* LineShape.swift in Sources */,
+				79A0ED5E1B19B95B0026CD57 /* SShape.swift in Sources */,
+				79A0ED561B19B81F0026CD57 /* TShape.swift in Sources */,
 				79A0ED501B19ABA30026CD57 /* Block.swift in Sources */,
 				7910CBC71B14834F00A65173 /* GameViewController.swift in Sources */,
+				79A0ED601B19B97C0026CD57 /* ZShape.swift in Sources */,
 				7910CBC11B14834F00A65173 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
