@@ -27,6 +27,7 @@
 		7910CBFB1B1487E400A65173 /* whitebg.png in Resources */ = {isa = PBXBuildFile; fileRef = 7910CBF51B1487E400A65173 /* whitebg.png */; };
 		7910CBFC1B1487E400A65173 /* whitebg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7910CBF61B1487E400A65173 /* whitebg@2x.png */; };
 		7910CBFE1B14A4C900A65173 /* Array2D.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7910CBFD1B14A4C900A65173 /* Array2D.swift */; };
+		79A0ED501B19ABA30026CD57 /* Block.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79A0ED4F1B19ABA30026CD57 /* Block.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,7 @@
 		7910CBF51B1487E400A65173 /* whitebg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whitebg.png; sourceTree = "<group>"; };
 		7910CBF61B1487E400A65173 /* whitebg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whitebg@2x.png"; sourceTree = "<group>"; };
 		7910CBFD1B14A4C900A65173 /* Array2D.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Array2D.swift; sourceTree = "<group>"; };
+		79A0ED4F1B19ABA30026CD57 /* Block.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Block.swift; path = ../Block.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 		7910CBBE1B14834F00A65173 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				79A0ED4F1B19ABA30026CD57 /* Block.swift */,
 				7910CBF11B1487E400A65173 /* background.png */,
 				7910CBF21B1487E400A65173 /* background@2x.png */,
 				7910CBF31B1487E400A65173 /* gameboard.png */,
@@ -276,6 +279,7 @@
 			files = (
 				7910CBC51B14834F00A65173 /* GameScene.swift in Sources */,
 				7910CBFE1B14A4C900A65173 /* Array2D.swift in Sources */,
+				79A0ED501B19ABA30026CD57 /* Block.swift in Sources */,
 				7910CBC71B14834F00A65173 /* GameViewController.swift in Sources */,
 				7910CBC11B14834F00A65173 /* AppDelegate.swift in Sources */,
 			);
@@ -471,6 +475,7 @@
 				7910CBE01B14834F00A65173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7910CBE11B14834F00A65173 /* Build configuration list for PBXNativeTarget "SwiftrisTests" */ = {
 			isa = XCConfigurationList;
@@ -479,6 +484,7 @@
 				7910CBE31B14834F00A65173 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
